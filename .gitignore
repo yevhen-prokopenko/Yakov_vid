@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# OS & system files
+.DS_Store
+*/.DS_Store
+Thumbs.db
+
+# Raw inbox media
+01_Inbox/
+
+# Heavy rendered outputs (keep analyses, reports and stills; exclude big video renders)
+02_Outbox/**/*.mp4
+motion/out/
+motion/dist/
+dist/
+build/
+
+# Other video formats
+*.mov
+*.mkv
+*.avi
+
+# Environment variables
+.env
+.env.local
+*.local
